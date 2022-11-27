@@ -7,6 +7,8 @@ spring:
   cloud:
     config:
       allow-override: true
+      override-none: true
+      override-system-properties: true
   jpa:
     properties:
       hibernate:
