@@ -5,3 +5,4 @@ eureka:
     enabled: true
     register-with-eureka: true
     fetch-registry: true
+    should-enforce-registration-at-init: true
