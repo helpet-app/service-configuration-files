@@ -5,3 +5,7 @@ spring:
         locator:
           enabled: true
           lowerCaseServiceId: true
+
+eureka:
+   instance:
+     prefer-ip-address: true
