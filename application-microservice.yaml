@@ -2,6 +2,7 @@ server:
   port: 0
   servlet:
     context-path: /api/v1
+  forward-headers-strategy: framework
 
 spring:
   jackson:
