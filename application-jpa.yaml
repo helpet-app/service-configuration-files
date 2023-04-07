@@ -10,3 +10,5 @@ spring:
         order_updates: true
     hibernate:
       ddl-auto: update
+      jdbc:
+        time_zone: UTC
