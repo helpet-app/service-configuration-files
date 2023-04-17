@@ -14,4 +14,4 @@ spring:
     encoding: UTF-8
   mvc:
     format:
-      date: iso
+      date-time: iso
