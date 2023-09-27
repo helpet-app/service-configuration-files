@@ -2,4 +2,4 @@ springdoc:
   api-docs:
     path: /api-docs
   swagger-ui:
-    config-url: /${spring.application.name}${server.servlet.context-path}${springdoc.swagger-ui.url}/swagger-config
+    config-url: /${spring.application.name}${server.servlet.context-path}${springdoc.api-docs.path}
